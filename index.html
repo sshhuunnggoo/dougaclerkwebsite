@@ -56,15 +56,15 @@
   </header>
    <script type="text/javascript">
       function first(){
-        var user = prompt("Please enter your name");
+        const user = prompt("Please enter your name");
         if(user==false || user==null){
           alert("Please enter your wonderful name");
           first();
         }else{
           document.title=user;
         }
-        var pass=prompt("Welcome Mr."+user+"　Please enter your password");
-        var passWord="potato"
+        const pass=prompt("Welcome Mr."+user+"　Please enter your password");
+        const passWord="potato"
         if(pass == passWord){
           alert("you have passed");
         }else{
