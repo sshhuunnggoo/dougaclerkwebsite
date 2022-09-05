@@ -51,19 +51,19 @@
   </header>
    <script type="text/javascript">
       function first(){
-        const user = prompt("Please enter your name");
+        const user = prompt("名前を入力してください");
         if(user==false || user==null){
           alert("Please enter your wonderful name");
           first();
         }else{
           document.title=user;
         }
-        const pass=prompt("Welcome Mr."+user+"　Please enter your password");
-        const passWord="potato"
+        const pass=prompt("こんにちは "+user+"さん　ロイロノートで送ったパスワードを入力してください");
+        const passWord="動画係ウェブサイト"
         if(pass == passWord){
-          alert("you have passed");
+          alert("パスワード認証に成功しました。");
         }else{
-          alert("Your password is incorrect");
+          alert("パスワードが間違っているもしくは空白かもしれません。もう一度お確かめください。");
           first();
         }
       }
