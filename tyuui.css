@@ -1,0 +1,48 @@
+div#kiyaku {
+    width: 500px;
+    height: 240px;
+    overflow: hidden scroll;
+}
+h1#title {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    width: 400px;
+    margin-left: 50px;
+  }
+h2#tyuui {
+    color: red;
+}
+a#kisoku:hover {
+    text-decoration: underline solid #dc143c 3px;
+    color: deepskyblue;
+}
+h3#final {
+    color: yellow;
+    background-color: red;
+}
+h4#shousai {
+    color: #d3d3d3;
+}
+body {
+    font-family: 'BIZ UDGothic', sans-serif;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+div {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+div ul li a:hover{
+    border-width: 7px;
+}
+a {
+  width: 20em;
+  height: 3em;
+}
+footer{
+background-color: #523f2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px 20px;
+}

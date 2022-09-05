@@ -1,0 +1,48 @@
+body {
+    font-family: 'BIZ UDGothic', sans-serif;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+font#title {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    width: 850px;
+    margin-left: 50px;
+  }
+  .link + .link {
+    border-top: solid #808080;
+  }
+div {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+div ul li a:hover{
+    border-width: 7px;
+}
+a {
+  width: 20em;
+  height: 3em;
+}
+header nav ul {
+    border-top: 2px solid #7c5d48;
+    border-bottom: 2px solid #7c5d48;
+    background-color: rgba(255, 255, 255, 0.42);
+    padding: 12px 0px 10px;
+}
+header nav ul li {
+    color: #dc143c;
+    font-size: 23px;
+}
+header nav ul li a {
+    color: #00afcc;
+}
+header nav ul li a:hover{
+    text-decoration: underline solid #696969 4px;
+}
+footer{
+background-color: #523f2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px 20px;
+}
