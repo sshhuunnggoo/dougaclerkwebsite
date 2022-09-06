@@ -2,13 +2,6 @@ body {
     font-family: 'BIZ UDGothic', sans-serif;
 
     font-family: 'M PLUS 1 Code', sans-serif;
-h1#title {
-    background-color: #d3d3d3;
-    border-radius: 10px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
-    width: 850px;
-    margin-left: 50px;
-  }
   .link + .link {
     border-top: solid #808080;
   }
